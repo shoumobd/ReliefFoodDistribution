@@ -1,0 +1,39 @@
+adultn=6; %number of adults
+dn=2; %number of diabetes patients
+
+
+aprotein=13; %minimum protein value requirement for each adult
+protein={BAR, BEEF, FISH, CHICKEN, EGG}; %Food items in Protein Food Group
+perpro=[5,8,3,4,2]; %protein value per unit of each food item
+procost=[30,40,20,30,10]; %cost of protein per unit of each food
+
+
+
+acarb=10; %minimum carb value requirement for each adult, non-diabetes
+dcarb=5; %minimum carb value requirement for each adult, diabetes
+carb={RICE, GRAINS, BREAD, CRACKERS, OATS, SWEETS}; %Food items in carb Food Group
+percarb=[2,4,4,1,4,5]; %carb value per unit of each food item
+carbcost=[10,30,20,10,40,40]; %cost of carb per unit of each food
+
+
+
+afruit=13; %minimum fruit value requirement for each adult
+dfruit=15; %minimum fruit value requirement for each adult
+fruit={MIXED, CANNED, BANANA, APPLE, ORANGE, TOMATO}; %Food items in fruit Food Group
+perf=[5,3,2,4,4,3]; %fruit value per unit of each food item
+fcost=[40,40,10,30,20,10]; %cost of fruit per unit of each food
+
+
+
+adairy=8; %minimum dairy value requirement for each adult
+dairy={MILK, YOGURT, CHEESE, BUTTER}; %Food items in dairy Food Group
+perd=[4,2,3,2]; %dairy value per unit of each food item
+dcost=[40,20,10,10]; %cost of dairy per unit of each food
+
+
+
+pronum=[2, 7, 1, 7, 0];
+carbnum=[5, 7, 8, 0, 5, 6];
+fnum=[7, 10, 1, 9, 6, 4];
+dnum=[7, 9, 2, 2];
+budget = 4100;

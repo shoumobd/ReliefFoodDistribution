@@ -1,0 +1,38 @@
+childn=4; %number of children
+
+
+
+aprotein=7; %minimum protein value requirement for each child
+protein={BAR, BEEF, FISH, CHICKEN, EGG}; %Food items in Protein Food Group
+perpro=[4,8,3,4,2]; %protein value per unit of each food item
+pronum=[3,7,5,8,4]; %number of units each protein food item
+procost=[30,40,20,30,10]; %cost of protein per unit of each food
+
+
+
+acarb=5; %minimum carb value requirement for each child
+carb={RICE, GRAINS, BREAD, CRACKERS, OATS, SWEETS}; %Food items in carb Food Group
+percarb=[3,4,4,1,4,5]; %carb value per unit of each food item
+carbnum=[8,7,8,6,5,7]; %number of units each carb food item
+carbcost=[10,30,20,10,40,40]; %cost of carb per unit of each food
+
+
+
+afruit=9; %minimum fruit value requirement for each child
+fruit={MIXED, CANNED, BANANA, APPLE, ORANGE, TOMATO}; %Food items in fruit Food Group
+perf=[5,3,2,4,4,3]; %fruit value per unit of each food item
+fnum=[8,10,8,9,8,7]; %number of units each fruit food item
+fcost=[40,40,10,30,20,10]; %cost of fruit per unit of each food
+
+
+
+adairy=12; %minimum dairy value requirement for each child
+dairy={MILK, YOGURT, CHEESE, BUTTER}; %Food items in dairy Food Group
+perd=[4,2,3,2]; %dairy value per unit of each food item
+dnum=[10,9,10,8]; %number of units each dairy food item
+dcost=[40,20,10,10]; %cost of dairy per unit of each food
+
+
+
+
+budget=4850; %total budget for all food items distributed
